@@ -1,0 +1,100 @@
+(footprint "Battery_Holder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6c614164-ae29-4b51-bcd0-30beb5ee3f75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery_Holder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72695093-b145-4f5b-b634-c9592cb5baf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23fd78b7-85f1-490a-a351-3e5ad5af0b97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8c38565-9be0-4224-917d-5be50ed6ac58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca693474-e775-45dd-97ac-e3ab8d7e0844")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3c10dc4-0417-417c-a2cb-632a55043916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0.8 0.2)
+		(size 17.78 17.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8c24f378-835f-48e1-a32c-b1b0f7352b81")
+	)
+	(pad "2" smd rect
+		(at -10.63 0.2)
+		(size 2.54 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6bd5a76d-3184-4212-9087-a6ffbd51b127")
+	)
+	(pad "2" smd rect
+		(at 12.23 0.2)
+		(size 2.54 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "019a075a-8e63-4bfa-ae45-46c95598f0a9")
+	)
+)
