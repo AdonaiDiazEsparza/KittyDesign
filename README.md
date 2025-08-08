@@ -24,13 +24,8 @@ This repository contains the design files for Kitty Design, a small PCB project 
 
 ## Design Images
 
-<div align="center">
   ![Front Design](images/Front.png)
-</div>
-
-<div align="center">
   ![Front Design](images/back.png)
-</div>
 
 ## Author
 Adonai Diaz
