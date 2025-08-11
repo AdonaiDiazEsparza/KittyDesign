@@ -8,7 +8,7 @@ This repository contains the design files for Kitty Design, a small PCB project 
 ---
 
 ## Components
-1x PY32F002AA15M6TU
+1x CH32V003JxMx
 
 1x 100nF Capacitor
 
