@@ -38,7 +38,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_55555570)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -70,11 +70,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 5)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./")
+			(outputdirectory "kitty-gerber/")
 		)
 	)
 	(net 0 "")
@@ -1728,7 +1728,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.68 0)
+			(at 0.261252 -1.99 0)
 			(layer "B.SilkS")
 			(uuid "a79907e0-d65b-4f40-84c3-f9a978a634ea")
 			(effects
@@ -2194,6 +2194,7 @@
 		(property "Reference" "J1"
 			(at 0 2.38 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c2b59ff9-d297-467a-adec-0085975389f6")
 			(effects
 				(font
@@ -2921,6 +2922,7 @@
 		(property "Reference" "SW2"
 			(at 0 1 100)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "af3a6d8d-7413-4155-9a64-aeba59a2c847")
 			(effects
 				(font
@@ -3646,7 +3648,7 @@
 		(descr "JEITA  SOIC, 8 Pin (JEITA/EIAJ ED-7311-19, variation 08-001-ADB, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=20), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "JEITA SOIC SO P-SOP-8 P-SOP08-03.90x04.90-1.27 P-SOP08-0225-1.27 narrow")
 		(property "Reference" "U1"
-			(at 0 3.4 0)
+			(at 0 -0.255 0)
 			(layer "B.SilkS")
 			(uuid "ba886672-4680-4f9a-9a85-ec5b2fee5b27")
 			(effects
